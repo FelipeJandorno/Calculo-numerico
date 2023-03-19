@@ -10,8 +10,6 @@ function Bisseccao(a, b, e)
 
 intervalo = [a b];
 
-% Verifica se a diferença entre os limites superior e inferior do intervalo
-%é menor do que a precisão estabelecida para o resultado obtido.
 if (abs(func(intervalo(1)) - func(intervalo(2)))/2 < e)
     m = (intervalo(1) + intervalo(2))/2;
     fprintf("Raiz: %f\n", m);
