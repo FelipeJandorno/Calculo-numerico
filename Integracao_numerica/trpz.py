@@ -1,4 +1,12 @@
-#Integração numérica utilizando a regra do trapézio
+# Objetivo: Integração numérica utilizando a regra do trapézio
+#
+# DICIONÁRIO DE VARIÁVEIS
+# a = limite superior de integração
+# b = limite inferior de integração
+# n = quantidade de subintervalos
+# h = tamanho do subintervalo de integração
+#
+#
 
 import math as mt
 
