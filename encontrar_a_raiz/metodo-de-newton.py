@@ -1,3 +1,14 @@
+# Objetivo: Encontrar o zero de uma função utilizando o método de Newton
+#
+# DICIONÁRIO DE VARIÁVEIS
+# x0 = chute inicial
+# e = precisão do cálculo
+# y = valor relacionado à função utilizada
+# cnt = contador de loops
+# check = o loop é repetido enquanto check = 0, caso contrário termina-se o loop
+# def function = função necessária para aplicar o método de newton
+# def delta_function = derivada da function
+
 def function(x, y):
     f = pow(x, 2) - y
     return f
@@ -11,7 +22,6 @@ def main(x0, e, y):
     cnt = 0
     check = 0
     x = x0
-    stop = True
     
     while(cnt != 20):
         xd = x
