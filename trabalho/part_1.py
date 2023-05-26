@@ -8,8 +8,6 @@ def main():
     # Cálculo dos coeficientes de lagrange
     interpol_lagrange(grau_pol+1, x_list)
 
-main()
-
 # ============ FUNÇÕES AUXILIARES =============== #
 
 # 01. Função que realiza o mapeamento dos pontos para a interpolação
@@ -43,7 +41,6 @@ def interpol_lagrange(grau_pol, x_list):
 
     L_coef = calc_coef(num_list, den_list)
 
-    print(f"num: {num_list}, den: {den_list}, L_coef: {L_coef}")
     return L_coef
 
 # 03. Identifica os numeradores dos coeficientes de lagrange
